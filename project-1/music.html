@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Armen Sarkisian" />
+    <meta
+      name="description"
+      content="A page containing information about Armen Sarkisian's musical career."
+    />
+    <title>Armen Sarkisian Music Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="./script.js" defer></script>
+  </head>
+  <body class="pianoBackground">
+    <header class="container">
+      <div class="row text-center">
+        <h1>Armen Sarkisian</h1>
+        <h2 class="tagline">From Pianist to Programmer</h2>
+      </div>
+      <div class="row text-center">
+        <nav>
+          <ul class="nav justify-content-center rounded mx-auto" id="NavBackground">
+            <li class="nav-item">
+              <a
+                class="nav-link" id="HomeButtonLink" 
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link" id="MusicButtonLink" 
+                href="./music.html"
+                >Music</a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" id="TechButtonLink" href="./tech.html">Tech</a></li>
+            <li class="nav-item"><a class="nav-link" id="ContactButtonLink" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="jumbotron">
+        <div class="container">
+          <div class="row text-center">
+            <h2>My Musical Background</h2>
+          </div>
+          <div class="row text-center box">
+            <p> Born into a musical family, I was exposed to classical music from a young age. I first started playing the piano at 4 years old, and it's been a major part of my life ever since. Throughout my musical career, I've performed in numerous concert venues around the world, including Carnegie Hall. I've also competed in piano competitions at the state, national, and international levels, earning top prizes several times. There are three degrees I earned in my musical education:</p>
+              <ul>
+                <li>Indiana University, Bachelor of Science in Music and an Outside Field (BSOF): Piano Performance, Sociology</li>
+                <li>Indiana University, Performer Diploma (PD): Piano Performance</li>
+                <li>The Juilliard School, Master of Music (MM): Piano Performance</li>
+              </ul>
+            
+            <p>While I still perform occasionally, in more recent years I've spent more time teaching, composing, and accompanying other musicians. Though most of my time is now committed to my computer science education, I've been able to maintain a light schedule of flexible musical work in the meantime as I transition toward my new career. If you're interested in taking piano lessons, please feel free to <a href="./contact.html" target="_blank" class="link"> contact me</a>.</p>
+            <p>Below, you can hear snippets from some of my previous performances and recordings, including a portion of an original work I composed for piano, violin, viola, and cello.</p>
+
+          </div>
+          <br><br><br>
+          <div class="row text-center">
+            <h2>Performance Highlights</h2>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-6">
+              <p> Chopin: Étude Op. 10 No. 4</p>
+              <video controls poster="./resources/images/piano-keys-medium.jpg">
+                <source src="./resources/videos/etude_1280x720.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-6">
+              <p>Rachmaninoff: Concerto No. 3 - Cadenza</p>
+              <video controls poster="./resources/images/piano-keys-medium.jpg">
+                <source src="./resources/videos/Cadenza.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-sm-6">
+              <p>Debussy: Poissons d'or</p>
+              <video controls poster="./resources/images/piano-keys-medium.jpg">
+                <source src="./resources/videos/160924Armen_7.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-6">
+              <p> Sarkisian: Piano Quartet in C# Minor</p>
+              <video controls poster="./resources/images/piano-keys-medium.jpg">
+                <source src="./resources/videos/3.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+        <br><br><br>
+    <section>
+      <div class="container">
+        <footer>
+      <div class="center">
+        <h4>Contact</h4>
+          <a href="https://www.linkedin.com/in/armen-sarkisian-0/" target="_blank"><i class="bi bi-linkedin icon"></i></a>
+          <a href="https://twitter.com/ArmenNEU" target="_blank"><i class="bi bi-twitter icon"></i></a>
+          <a href="https://github.com/arm2349"><i class="bi bi-github icon"></i></a>
+          <a href="mailto:sarkisian.a@northeastern.edu"><i class="bi bi-envelope icon"></i></a>
+          <p class="footerText">&copy;Armen Sarkisian</p>
+
+      </div>
+    </footer>
+        
+      </div>
+    </section>
+  </body>
+</html>

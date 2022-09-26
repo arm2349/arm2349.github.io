@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Armen Sarkisian" />
+    <meta
+      name="description"
+      content="A home page containing information about Armen Sarkisian, a student at Northeastern University transitioning from a musical career to a career as a developer."
+    />
+    <title>Armen Sarkisian Home Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body class="pianoBackground">
+    <header class="container">
+      <div class="row text-center">
+        <h1>Armen Sarkisian</h1>
+        <h2 class="tagline">From Pianist to Programmer</h2>
+      </div>
+      <div class="row text-center">
+        <nav>
+          <ul id="NavBackground" class="nav justify-content-center rounded mx-auto">
+            <li class="nav-item"><a class="nav-link" id="HomeButtonLink" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" id="MusicButtonLink" href="./music.html">Music</a></li>
+            <li class="nav-item"><a class="nav-link" id="TechButtonLink" href="./tech.html">Tech</a></li>
+            <li class="nav-item"><a class="nav-link" id="ContactButtonLink" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="jumbotron">
+        <div class="container">
+          <img
+            class="rounded mx-auto d-block"
+            src="https://media.giphy.com/media/0Yk15Ho9zO4akwxCww/giphy.gif"
+            alt="GIF of piano playing and keyboard typing"
+          />
+          <br><br><br>
+          <div class="row text-center">
+            <h2>About Me</h2>
+          </div>
+          <div class="row text-center box">
+            <div class="col-sm-8">
+            <p>
+              Hi, I'm Armen. I'm a student at Northeastern University in San
+              Jose, where I'm currently working toward earning a Master's degree
+              in Computer Science. Before I entered this program, I was a
+              classically-trained pianist living and freelancing in New York
+              City! I've found there are actually many similarities between
+              music and computer science. Both require using intuition and logic
+              to solve problems, and also offer the opportunity to create new
+              and exciting things. While it still brings me great joy to play
+              the piano and compose music, I'm thrilled to be applying my
+              creativity in new ways while learning lots of exciting skills
+              along the way! To learn more about my story as a classical
+              pianist, please visit my <a class="link" href=./music.html>music page</a>. You can
+              follow my progress in my computer science journey at my
+              <a class="link" href="./tech.html">tech page</a>.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img
+              class="img-fluid"
+              id="Headshot"
+              src="./resources/images/Armen-Sarkisian-13-Web.jpg"
+              alt="Armen's Headshot"
+            />
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+      <br><br><br>
+      <section>
+        <div class="container">
+          <div class="row text-center">
+            <h2>More About Me - Quick Facts</h2>
+          </div>
+          <!-- begin carousel -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./resources/images/Yerevan.jpg" class="rounded mx-auto d-block w-50" alt="Yerevan, Armenia">
+      <div class="rounded mx-auto carousel-caption d-none d-md-block carouselCaption">
+        <h5>Birthplace: Yerevan, Armenia</h5>
+        <p class="smallerP">Yerevan is a beautiful city and one of my favorite places to visit!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./resources/images/IMG_3661.JPEG" class="rounded mx-auto d-block w-50" alt="Upper West Side, New York City">
+      <div class="rounded mx-auto carousel-caption d-none d-md-block carouselCaption">
+        <h5>Favorite City: New York</h5>
+        <p class="smallerP">This is the Upper West Side neighborhood where I lived.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./resources/images/basketball-horizontal.jpg" class="rounded mx-auto d-block w-50" alt="Basketball Court">
+      <div class="rounded mx-auto carousel-caption d-none d-md-block carouselCaption">
+        <h5>Favorite Sport: Basketball</h5>
+        <p class="smallerP">Prediction: the Golden State Warriors will repeat as champions this year.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./resources/images/lands-end-horizontal.jpg" class="rounded mx-auto d-block w-50" alt="Land's End, San Francisco">
+      <div class="rounded mx-auto carousel-caption d-none d-md-block carouselCaption">
+        <h5>Favorite Hobby: Hiking, being in nature and exploring the outdoors</h5>
+        <p class="smallerP">Land's End in San Francisco has some gorgeous views.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+            
+        </div>
+      </section>
+    </main>
+    <br><br><br>
+    <section>
+      <div class="container">
+        <footer>
+      <div class="center">
+        <h4>Contact</h4>
+          <a href="https://www.linkedin.com/in/armen-sarkisian-0/" target="_blank"><i class="bi bi-linkedin icon"></i></a>
+          <a href="https://twitter.com/ArmenNEU" target="_blank"><i class="bi bi-twitter icon"></i></a>
+          <a href="https://github.com/arm2349"><i class="bi bi-github icon"></i></a>
+          <a href="mailto:sarkisian.a@northeastern.edu"><i class="bi bi-envelope icon"></i></a>
+          <p class="footerText">&copy;Armen Sarkisian</p>
+
+      </div>
+    </footer>
+        
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
