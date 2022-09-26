@@ -10,6 +10,9 @@ h1, h2, h3 {
   color: floralwhite;
   text-shadow: 1px 1px 2px black;
 }
+#SmallerH3 {
+  font-size: 24px;
+}
 h4 {
   font-family:  "Quicksand";
   color: floralwhite;
