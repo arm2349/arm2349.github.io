@@ -10,9 +10,11 @@ h1, h2, h3 {
   color: floralwhite;
   text-shadow: 1px 1px 2px black;
 }
+
 #SmallerH3 {
   font-size: 24px;
 }
+
 h4 {
   font-family:  "Quicksand";
   color: floralwhite;
@@ -74,9 +76,6 @@ p {
   border-radius: .3rem;
 }
 
-
-
-
 li {
   color: floralwhite;
   font-size: 18px;
@@ -105,8 +104,8 @@ li {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
   background-size: 50%;
   width: fit-content;
-
 }
+
 .carouselCaption {
   font-family: Playfair Display;
   color: floralwhite;
@@ -116,6 +115,7 @@ li {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.99), rgba(45, 65, 125, 0.99), transparent);
   max-width: 50%;
 }
+
 .carouselBackground {
   text-shadow: 1px 1px 2px black;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
@@ -160,7 +160,6 @@ li {
   color: forestgreen;
   text-shadow: 1px 1px 2px black;
   border-radius: .3rem;
-
 }
 
 #TechButtonLink:hover, #MusicButtonLink:hover, #HomeButtonLink:hover, #ContactButtonLink:hover {
@@ -191,3 +190,9 @@ rgba(13, 0, 120, 0.95) 1%, rgba(148, 147, 154, 0.51)
 (to top, rgba(4, 133, 221, 0.18), rgba(148, 147, 154, 0.72))
 (to top, rgba(4, 133, 221, 0.1), rgba(148, 147, 154, 0.3))
 */
+
+/* Creating different CSS files for different pages to make it easier to keep 
+track of the different styles that are used for each HTML page.*/ 
+
+/*You can also use Prettier to format the entire page so the spacing is consistent */
+
