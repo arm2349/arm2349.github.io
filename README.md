@@ -24,5 +24,6 @@ This page contains my contact information. There are links to my GitHub, Twitter
 <img width="345" alt="website-screenshot-3" src="https://user-images.githubusercontent.com/56358399/192411082-571f5396-e99c-499c-b47b-ce01c00ed627.png">
 
 ## Video Demonstration
-[Click here](https://github.com/arm2349/arm2349.github.io/blob/7ee1573b515a052da77fec9ed422d4edff172c0b/project-presentation.mkv) to see the video presentation.
+[Click here](https://github.com/arm2349/arm2349.github.io/blob/7ee1573b515a052da77fec9ed422d4edff172c0b/project-presentation.mkv) to access the video presentation.
+[Click here](https://docs.google.com/presentation/d/1yHZuZtsu_8X2hN1mZtcnUzONap8cg2U5YgW7VFteH4E/edit?usp=sharing) to see the presentation slides.
 
