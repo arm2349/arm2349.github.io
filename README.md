@@ -1,5 +1,7 @@
 # Armen Sarkisian Home Page
-A project made by Armen Sarkisian for [Web Development Fall 2022](https://johnguerra.co/classes/webDevelopment_fall_2022/)
+A project for [NEU CS5610 Web Development Fall 2022](https://johnguerra.co/classes/webDevelopment_fall_2022/)
+
+## Author: Armen Sarkisian
 
 ## Objective: To create a multi-page home website which includes information about myself regarding my background, education, and tech experience.
 
