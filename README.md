@@ -19,7 +19,7 @@ This page contains information about my ongoing computer science education and c
 ### Page 4: Contact
 This page contains my contact information. There are links to my GitHub, Twitter, LinkedIn, and email.
 
-##Preliminary Design
+## Preliminary Design
 [Click here](https://github.com/arm2349/arm2349.github.io/blob/4c24ab17a678567a36d7b4c2c4b3d7d2819f9603/Design%20Document%20for%20Web%20Dev%20Project%201.lnk) to see the initial design for the website.
 
 ## Screenshots
