@@ -181,6 +181,13 @@ video {
   width: 85%;
 }
 
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+}
 
 /*
 
