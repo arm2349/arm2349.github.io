@@ -86,7 +86,9 @@ li {
 .icon {
   font-size: 36px;
   color: floralwhite;
-
+}
+.icon:hover {
+  color: darkgrey;
 }
 .footerText {
   font-family: Quicksand;
